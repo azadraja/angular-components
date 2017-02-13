@@ -1,9 +1,6 @@
 (function(){
   'use strict';
   var app = angular.module('app');
- app.controller('HomeCtrl', function() {
-     this.message = "Hello, world";
-  });
   app.component('menuBar', {
     // defines a two way binding in and out of the component
     bindings: {
